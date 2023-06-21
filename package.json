@@ -5,11 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:open": "cypress open --reporter mochawesome",
     "cy:run-all": "cypress run --spec cypress/e2e/*.spec.js",
     "cy:chrome": "cypress run  --browser chrome --spec cypress/e2e/*.spec.js",
-    "cy:run-headless": "cypress run --headless --browser chrome --spec cypress/e2e/*.spec.js --record --key beca6573-6a7b-430a-9368-5e12290da0da",
-    "cy:run-test": "cypress run --spec cypress/e2e/home_page.cy.js"
+    "cy:run-headless": "cypress run --headless --browser chrome --spec cypress/e2e/*.spec.js --record --key beca6573-6a7b-430a-9368-5e12290da0da"
   },
   "author": "",
   "license": "ISC",
