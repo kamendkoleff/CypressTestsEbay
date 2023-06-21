@@ -3,7 +3,7 @@
 
 This repo contains e2e tests written in Cypress for Ebay.com Checkout Page
 
-##Install
+## Install
 All of this must be installed in your path: 
 
 ```node –-version``` 
