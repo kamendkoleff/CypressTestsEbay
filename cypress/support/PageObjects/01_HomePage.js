@@ -19,3 +19,4 @@ getSearchBtn() {
     .click()
 }
 }
+export default HomePage
